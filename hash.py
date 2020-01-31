@@ -1,6 +1,6 @@
 import hashlib
 
-file = "files/familyUpdatetagAresult.txt"
+file = "/Dominio-Check-Updates/files/familyUpdatetagAresult.txt"
 BLOCK_SIZE = 65536 # The size of each read from the file
 
 file_hash = hashlib.sha256() # Create the hash object, can use something other than `.sha256()` if you wish
